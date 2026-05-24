@@ -17,12 +17,16 @@ st.set_page_config(
 
 st.title("👨‍⚕️ Med Buddy (xAI) - Advanced RAG")
 st.markdown("Upload blood test results and ask intelligent questions")
+st.markdown("DISCLAIMER: DATA THAT YOU UPLOAD IS NOT STORED OR SENT TO ANYWHERE EXCEPT YOUR BROWSER.")
+st.markdown("ALL PROCESSING HAPPENS LOCALLY IN YOUR BROWSER USING THE GROK API KEY YOU PROVIDE.")
+st.markdown("DATA IS DESTROYED IMMEDIATELY AFTER CLOSING THE BROWSER. ALWAYS BE CAUTIOUS WITH SENSITIVE INFORMATION.")
 
 # ===================== API KEY =====================
-if "XAI_API_KEY" not in os.environ:
+if "XAI_API_KEY" not in st.secrets:
     api_key = st.text_input("Enter your Grok API Key (xAI)", type="password")
     if api_key:
-        os.environ["XAI_API_KEY"] = api_key
+        # os.environ["XAI_API_KEY"] = api_key
+        st.secrets["XAI_API_KEY"] = api_key
     else:
         st.warning("⚠️ Grok API Key required. Get one at https://xai.grok.com/")
         st.stop()
