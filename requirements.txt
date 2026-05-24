@@ -7,3 +7,4 @@ langchain_text_splitters
 langchain_community
 pypdf
 sentence-transformers
+torchvision
