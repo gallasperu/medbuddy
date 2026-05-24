@@ -18,7 +18,6 @@ st.set_page_config(
 st.title("👨‍⚕️ Med Buddy (xAI) - Advanced RAG")
 st.markdown("Upload blood test results and ask intelligent questions")
 st.markdown("DISCLAIMER: DATA THAT YOU UPLOAD IS NOT STORED OR SENT TO ANYWHERE EXCEPT YOUR BROWSER.")
-st.markdown("ALL PROCESSING HAPPENS LOCALLY IN YOUR BROWSER USING THE GROK API KEY YOU PROVIDE.")
 st.markdown("DATA IS DESTROYED IMMEDIATELY AFTER CLOSING THE BROWSER. ALWAYS BE CAUTIOUS WITH SENSITIVE INFORMATION.")
 
 # ===================== API KEY =====================
