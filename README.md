@@ -67,5 +67,4 @@ The app offers **three response styles** (from simple to professional with treat
    ```bash
    git clone <repository-url>
    cd med-buddy
-2. Run the streamlit web application [here] [link] 
-    [link]:https://medbuddy-gg7wrttxskdachz8pmwm6n.streamlit.app/
+2. Run the streamlit web application [here](https://medbuddy-gg7wrttxskdachz8pmwm6n.streamlit.app/)
