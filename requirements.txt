@@ -8,3 +8,4 @@ langchain_community
 pypdf
 sentence-transformers
 torchvision
+faiss-cpu
