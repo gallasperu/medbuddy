@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-xai
+langchain_community
+langchain_core
+langchain_text_splitters 
+langchain_community
